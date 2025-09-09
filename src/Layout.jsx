@@ -1,3 +1,4 @@
+import Footer from "./component/Footer";
 import TopHeader from "./component/TopHeader";
 import TopMenu from "./component/TopMenu";
 import { Outlet } from "react-router-dom";
@@ -11,6 +12,8 @@ const Layout=()=>{
              <hr />
 
              <Outlet/>
+
+             <Footer/>
 
              
              

@@ -8,5 +8,20 @@
             "price":20000,
             "images":"dfghfdhfghf"
         }
+    ],
+
+    "admin":[
+        {
+            "id":1,
+            "adminname":"ADMIN",
+            "adminid":"admin@gmail.com",
+            "password":"admin123"
+        },
+        {
+            "id":1,
+            "adminname":"Raj",
+            "adminid":"raj@gmail.com",
+            "password":"raj123"
+        }
     ]
 }
