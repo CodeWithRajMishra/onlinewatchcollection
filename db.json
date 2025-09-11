@@ -1,27 +1,42 @@
 {
-    "products":[
-        {
-            "id":1,
-            "name":"Digital Watch",
-            "brand":"Titan",
-            "category":"womens",
-            "price":20000,
-            "images":"dfghfdhfghf"
-        }
-    ],
-
-    "admin":[
-        {
-            "id":1,
-            "adminname":"ADMIN",
-            "adminid":"admin@gmail.com",
-            "password":"admin123"
-        },
-        {
-            "id":1,
-            "adminname":"Raj",
-            "adminid":"raj@gmail.com",
-            "password":"raj123"
-        }
-    ]
+  "products": [
+    {
+      "id": "1",
+      "name": "Digital Watch",
+      "brand": "Titan",
+      "category": "womens",
+      "price": 20000,
+      "images": "dfghfdhfghf"
+    },
+    {
+      "id": "0354",
+      "name": "fatrack analog heigh quality watch",
+      "brand": "Sonata",
+      "category": "male",
+      "price": "12000",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757598807/sllhccbswgvinf01zqjq.jpg"
+    },
+    {
+      "id": "8fb5",
+      "name": "digital whit color watch",
+      "brand": "Rolex",
+      "category": "female",
+      "price": "23500",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757598864/yzbxg090ivj2qne84ox8.jpg"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "adminname": "ADMIN",
+      "adminid": "admin@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": "1",
+      "adminname": "Raj",
+      "adminid": "raj@gmail.com",
+      "password": "raj123"
+    }
+  ]
 }
