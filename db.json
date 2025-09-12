@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Digital Watch",
-      "brand": "Titan",
-      "category": "womens",
-      "price": 20000,
-      "images": "dfghfdhfghf"
-    },
-    {
       "id": "0354",
       "name": "fatrack analog heigh quality watch",
       "brand": "Sonata",
@@ -23,6 +15,62 @@
       "category": "female",
       "price": "23500",
       "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757598864/yzbxg090ivj2qne84ox8.jpg"
+    },
+    {
+      "id": "b8b5",
+      "name": "Men's And Boys Watch With Stylish Along Comfortable Strap Analog Watch - For Men ",
+      "brand": "Fossil",
+      "category": "male",
+      "price": "4500",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757683272/houolwzwh5i11ppryf4x.webp"
+    },
+    {
+      "id": "6714",
+      "name": "Mesh Strap Multicolor Dial Quartz Analog Watch - For Men",
+      "brand": "Rolex",
+      "category": "male",
+      "price": "2300",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757683324/p4whivomqnkqcbqnovzy.webp"
+    },
+    {
+      "id": "3dd9",
+      "name": "Trending Premium Quality Functioning for Boys Analog Watch - For Men SK-PG-4078-WYT-BRWN Basic with Day and Date Display",
+      "brand": "Titan",
+      "category": "male",
+      "price": "5600",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757683384/g7orm2pc5ciosxftnodo.webp"
+    },
+    {
+      "id": "a9ee",
+      "name": "Trending Premium Quality Functioning for Boys Analog Watch - For Men SK-PG-4078-WYT-BRWN Basic with Day and Date Display",
+      "brand": "Sonata",
+      "category": "female",
+      "price": "4500",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757683421/h7824qgyyng8fjxlq8v9.webp"
+    },
+    {
+      "id": "b38e",
+      "name": "Multicolor Lights 3D Cute Cartoon Multi Function Silicone Strap Kidd's s Analog Watch - For Boys & Girls 3D Cute Cartoon Rubber",
+      "brand": "Omega",
+      "category": "kids",
+      "price": "400",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757684062/lcxc6eefd8tq7vkj9rj5.webp"
+    },
+    {
+      "id": "05ea",
+      "name": "Kids Round Digital Watch Digital Watch - For Boys & Girls BRSTN_KIDS_DIGI-WTCH-324-Red",
+      "brand": "Titan",
+      "category": "kids",
+      "price": "700",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757684118/bytohy8ygup7bmstzqdo.webp"
+    },
+    {
+      "id": "5beb",
+      "name": "New Range Analog Kids Watches Analog Watch - For Boys & Girls ZRK3-KDS-WTCH",
+      "brand": "Rolex",
+      "category": "kids",
+      "price": "300",
+      "images": "http://res.cloudinary.com/dyfr12jd5/image/upload/v1757684194/rrhdc53i9sv5htiykbvi.webp"
     }
   ],
   "admin": [

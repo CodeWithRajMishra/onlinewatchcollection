@@ -1,9 +1,16 @@
+#topNav{
+ position: sticky;
+ top: 0;
+ z-index: 1;
+ background-color: white;
+}
 
 
 #topheader{
     width: 100%;
     padding: 20px;
     background-color: lightblue;
+    text-align: right;
 }
 
 #topmenu
@@ -27,7 +34,6 @@ h1 {
 {
     display: flex;
     justify-content: space-between;
-    width: "90%";
     flex-wrap: wrap;
 }
 

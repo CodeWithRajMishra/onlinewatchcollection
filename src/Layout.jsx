@@ -7,8 +7,11 @@ import { Outlet } from "react-router-dom";
 const Layout=()=>{
     return(
         <>
-             <TopHeader/>
+          <div id="topNav">
+              <TopHeader/>
              <TopMenu/>
+          </div>
+           
              <hr />
 
              <Outlet/>

@@ -5,11 +5,50 @@ import ban3 from "../images/ban3.jpeg";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import w1 from "../images/w1.jpg";
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 const Home=()=>{
+const [mydata, setMydata] = useState([]);
+
+const loadData=async()=>{
+    let api="http://localhost:3000/products";
+    const response = await axios.get(api);
+    console.log(response.data);
+    setMydata(response.data);
+}
+
+useEffect(()=>{
+  loadData();
+}, [])
+
+
+const ans= mydata.map((key)=>{
+   return(
+    <>
+        <Card style={{ width: '18rem', margin:"10px" }}>
+      <Card.Img variant="top" src={key.images}  height="200" />
+      <Card.Body>
+        <Card.Title>{key.brand}</Card.Title>
+        <Card.Text>
+           {key.name}
+           <br />
+           <span style={{color:"red"}}>Category : {key.category}</span> 
+           <br />
+           <span style={{color:"navy" , fontWeight:"bold"}}>Price : {key.price}</span> 
+        </Card.Text>
+        <Button variant="primary">Add To Cart</Button>
+      </Card.Body>
+    </Card>
+
+    </>
+   )
+})
+
+
     return(
         <>
-          <Carousel>
+     <Carousel>
       <Carousel.Item>
         <img src={ban1} width="100%" height="300" />
         <Carousel.Caption>
@@ -37,21 +76,10 @@ const Home=()=>{
 
     <h1> Out Top Collections</h1>
 
-    <div id='topwacthes'>
+    <div id='topwacthes' style={{width:"90%", margin:"auto"}}>
       
-        
- <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={w1}  height="200" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-
+        {ans}
+ 
     </div>
         </>
     )
