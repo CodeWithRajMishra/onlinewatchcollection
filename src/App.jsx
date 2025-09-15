@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import AdminDashBoard from "./AdminDashBoard";
 import AddProduct from "./adminpages/AddProduct";
 import MyCart from "./pages/MyCart";
+import CheckOut from "./pages/CheckOut";
+import PaymentDone from "./pages/PaymentDone";
 
 
 
@@ -16,6 +18,8 @@ const App=()=>{
             <Route index element={<Home/>} />
             <Route path="home" element={<Home/>}/>
             <Route path="mycart" element={<MyCart/>}/>
+            <Route path="checkout" element={<CheckOut/>}/>
+            <Route path="paydone" element={<PaymentDone/>}/>
             </Route>
           </Routes>
           <Routes>
@@ -23,7 +27,6 @@ const App=()=>{
               <Route path="addproduct" element={<AddProduct/>}/>
              </Route>
           </Routes>
-
         </BrowserRouter>
     </>
   )
