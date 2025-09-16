@@ -66,7 +66,7 @@ const TopMenu=()=>{
           <Nav className="me-auto">
             <Nav.Link as={Link} to="home">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link as={Link} to="mycart">My Cart</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

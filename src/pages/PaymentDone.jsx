@@ -18,10 +18,8 @@ const PaymentDone=()=>{
             <h1> Payment Done </h1>
             <h3 align="center"> Your Order Succesfully placed!!!</h3>
          </>)}
-        
-         
+                
         </>
     )
 }
-
 export default PaymentDone;
