@@ -16,7 +16,8 @@ const [mydata, setMydata] = useState([]);
 const dispatch = useDispatch();
 
 const loadData=async()=>{
-    let api="http://localhost:3000/products";
+    let api=`${import.meta.env.VITE_API_URL}/products`;
+  
     const response = await axios.get(api);
     console.log(response.data);
     setMydata(response.data);
